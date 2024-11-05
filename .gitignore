@@ -1,0 +1,22 @@
+# Ignorer tous les fichiers Python compilés
+__pycache__/
+*.pyc
+
+# Ignorer les fichiers de logs
+*.log
+
+# Ignorer les fichiers de configuration des environnements virtuels
+.env
+.venv
+
+# Ignorer les fichiers Jupyter Notebook de checkpoints
+.ipynb_checkpoints/
+
+# Ignorer le dossier node_modules pour les projets JavaScript/Node.js
+node_modules/
+
+env/
+
+# Ignorer les dossiers et fichiers propres à l'OS (macOS, Windows)
+.DS_Store
+Thumbs.db
